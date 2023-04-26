@@ -1,0 +1,122 @@
+*{
+
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   
+   }
+
+
+   body{
+
+      background-color: rgb(64, 252, 120);
+   }
+
+ 
+
+
+.navbar{
+
+background-color: rgb(236, 245, 237) !important;
+
+}
+
+
+
+   
+   .container-grid {
+
+      display: grid;
+      
+      grid-template-columns: 500px 500px;
+      
+      grid-gap: 10px;
+      
+      }
+      
+      .grid-col{
+         background-color: bisque;
+         color: #0c0b0b;
+         padding: 50px;
+      }
+       
+      
+      .box-grid {      
+      background-color: bisque;      
+      color: #030202 !important;      
+      padding: 50px;      
+      }
+   
+#pie{
+   width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer-col1{
+   width: auto;
+   float: left;
+   padding: 10px;
+}
+.footer-col2{
+   width: auto;
+   float: left;
+   padding: 10px;
+}
+.footer-col3{
+   width: auto;
+   float: left;
+   padding: 10px;
+}
+   
+   @media screen and (max-with: 460px) {
+   
+      .formulario{
+   
+         width: 100px;
+      }
+     body{
+      
+      width: 100px;
+
+     }
+     }
+     
+
+     @media screen and (max-width: 1005px) {
+
+      .container-grid {
+      
+      grid-template-columns: inherit;
+      
+      }
+      
+      
+      
+   }
+
+   h1{
+   
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 50px !important;
+
+      
+
+   }
+
+    h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: inherit;
+
+
+
+   }
+   p{
+
+      font-stretch: normal;
+      font-size: 30;
+   }
+      
+
+   
