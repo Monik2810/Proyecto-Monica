@@ -1,0 +1,15 @@
+@media screen and (max-with: 460px) {
+  .formulario {
+    width: 100px;
+  }
+  .container-grid {
+    grid-template-columns: inherit !important;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .container-grid {
+    grid-template-columns: inherit !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

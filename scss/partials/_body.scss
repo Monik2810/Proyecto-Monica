@@ -1,0 +1,91 @@
+body {
+ 
+    background-color: $color-fondo-principal;
+ 
+    .navbar{
+
+     background-color: $color-navbar;
+
+     
+    
+     
+     }
+
+     
+     
+     
+
+     h1{
+ 
+         font-family: 'Courier New', Courier, monospace;
+         font-size: 50px !important;
+      
+   
+         
+   
+      }
+   
+       h2 {
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+       font-weight: inherit;
+   
+   
+   
+      }
+      p{
+   
+         font-stretch: normal;
+         font-size: 30;
+      }
+
+      .container-grid {
+ 
+        display: grid;
+        
+        grid-template-columns: 500px 500px;
+        
+        grid-gap: 10px;
+
+        
+        
+        }
+
+        .card{
+
+            background-color: $color-tarjetas;
+         
+         }
+        .container-flex{
+  
+           display: flex;
+           
+           flex-direction: row;
+           
+           justify-content: center;
+           
+           flex-wrap: wrap;
+
+           
+           }
+
+        
+        .grid-col{
+           background-color: $color-tarjetas;
+           color: #0c0b0b;
+           padding: 50px;
+        }
+         
+        
+        .box-grid {      
+        background-color: $color-tarjetas;      
+        color: #030202 !important;      
+        padding: 50px;      
+        }
+     
+
+
+
+         
+ 
+ }

@@ -1,0 +1,53 @@
+.btn {
+
+    width:100px;
+
+    height:50px;
+
+    
+
+    text-align:center;
+
+    color:black;
+
+    border-radius:20px;
+
+    border:1px solid black;
+
+    cursor: pointer;
+
+    background-color: grey;
+    
+
+
+
+    }
+
+    .btn-grey{
+
+
+        @extend.btn;
+    }
+
+    .btn-red {
+
+    @extend.btn;
+    background-color: rgb(228, 243, 88);
+
+    }
+
+
+    @mixin position-flex ($justify, $align) {
+
+
+        display: flex;
+        justify-content: $justify;
+
+
+    }
+
+    .botones-contacto {
+
+     @include position-flex(flex-end, center)
+
+    }
