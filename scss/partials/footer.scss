@@ -1,9 +1,32 @@
 footer {
+
+   
+
+   .fondo-footer{
+    
+      background-color: violet;
+      width: 100%;
+      
+
+   }
+
+   .footer-position{
+
+   position: fixed;
+
+   }
+
+
+
    
     #pie{
+
+
+     
       width: 200px;
-       height: auto;
+       height: 40px;
        margin: 0 auto;
+       
         .footer-col1{
       width: auto;
       float: left;

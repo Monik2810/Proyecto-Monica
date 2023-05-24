@@ -1,5 +1,6 @@
 .btn {
 
+
     width:100px;
 
     height:50px;
@@ -17,6 +18,13 @@
 
     background-color: grey;
     
+    transition: transform (2s);
+    
+    :hover {
+        
+      transform: scale(3)
+    }
+    
 
 
 
@@ -32,6 +40,7 @@
 
     @extend.btn;
     background-color: rgb(228, 243, 88);
+    width: auto;
 
     }
 
